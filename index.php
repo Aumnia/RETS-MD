@@ -1000,6 +1000,7 @@ echo "
 </div>
 
 <p style='text-align: center'><a href='{$GLOBALS['path_to_me']}?load=demo'>Try the demo</a></p>\n
+";
 
 page_footer();
 
