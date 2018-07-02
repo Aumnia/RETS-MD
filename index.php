@@ -379,7 +379,7 @@ echo "
 <div class='box'>
 	<div class='box_heading dark-bg'>What is RETSMD.com?</div>
 	<div class='box_content light-bg'>
-<p><a href='http://rets.org'>RETS</a> servers handle 3 main purposes:</p>
+<p><a href='https://rets.org'>RETS</a> servers handle 3 main purposes:</p>
 
 <ol>
   <li>To provide detailed descriptions of the types of data and fields you can receive</li>
@@ -405,7 +405,7 @@ RETS server so it can learn about what it has to offer.  Several things are disc
 of the often-unused details in the background.</p>
 
 <p>All of the information and features this site contains are made possible by using
-<a href='http://troda.com/projects/phrets'>PHRETS</a> as the underlying RETS library allowing it to communicate with
+<a href='https://troda.com/projects/phrets'>PHRETS</a> as the underlying RETS library allowing it to communicate with
 compliant RETS servers.</p>
 
 	</div>
@@ -949,7 +949,7 @@ exit;
 function code_login_page() {
 
 if (isset($_REQUEST['load']) && $_REQUEST['load'] == "demo") {
-	$login_url = "http://demo.crt.realtors.org:6103/rets/login";
+	$login_url = "https://demo.crt.realtors.org:6103/rets/login";
 	$username = "Joe";
 	$password = 'Schmoe';
 	$user_agent = "RETSMD/1.0";
@@ -1001,7 +1001,7 @@ echo "
 
 <p style='text-align: center'><a href='{$GLOBALS['path_to_me']}?load=demo'>Try the demo</a></p>\n
 
-<a href='http://github.com/troydavisson/RETS-MD'><img style='position: absolute; top: 0; right: 0; border: 0;' src='https://a248.e.akamai.net/assets.github.com/img/e6bef7a091f5f3138b8cd40bc3e114258dd68ddf/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67' alt='Fork me on GitHub'></a>
+<a href='https://github.com/troydavisson/RETS-MD'><img style='position: absolute; top: 0; right: 0; border: 0;' src='https://a248.e.akamai.net/assets.github.com/img/e6bef7a091f5f3138b8cd40bc3e114258dd68ddf/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67' alt='Fork me on GitHub'></a>
 
 ";
 
@@ -1027,7 +1027,7 @@ $page_title = (empty($page_title)) ? "Main" : $page_title;
 <title>RETS M.D. - <?php echo $page_title; ?></title>
 <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
 <link href="<?php echo $GLOBALS['media_url']; ?>styles.css?3" rel="stylesheet" type="text/css" />
-<script language="javascript" type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+<script language="javascript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
 <script type="text/javascript">
 jQuery.noConflict();
 </script>
@@ -1065,7 +1065,7 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == "yes" && $show_lo
 	<div style='height: 5px; border-bottom: 2px solid #5573FF;' class='dark-bg'>&nbsp;</div>
 	<div class='body_content light-bg' style='text-align: center;'>
 <br />
-version 1.5 &nbsp; - &nbsp; powered by <a href='http://troda.com/projects/phrets' title='PHRETS'>PHRETS</a> &nbsp; - &nbsp; <a href="<?php echo $GLOBALS['path_to_me']; ?>?action=about">what is this?</a> &nbsp; - &nbsp; <a href="mailto:troy.davisson@gmail.com">feedback</a><br />
+version 1.5 &nbsp; - &nbsp; powered by <a href='https://troda.com/projects/phrets' title='PHRETS'>PHRETS</a> &nbsp; - &nbsp; <a href="<?php echo $GLOBALS['path_to_me']; ?>?action=about">what is this?</a> &nbsp; - &nbsp; <a href="mailto:troy.davisson@gmail.com">feedback</a><br />
 <br />
 	</div>
 </div>
